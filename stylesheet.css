@@ -235,48 +235,6 @@ justify-content: flex-end;
 
 }
 
-.container {
-  font-family: abril-display, serif;
-  background-color: #554640;
-  position: fixed;
-  bottom: 0;
-  height: 60%;
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto auto auto auto;
-  grid-template-areas:
-  "a b c"
-  "d e f"
-  "g h i"
-  "j k l";
-}
-
-.bla {
-  grid-area: a;
-  color: white;
-}
-
-.information {
-  grid-area: b;
-  color: white;
-}
-
-.telefon {
-  grid-area: e;
-  color: white;
-}
-
-.email {
-  grid-area: h;
-  color: white;
-}
-
-.adresse {
-  grid-area: k;
-  color: white;
-}
-
-
 
 
 
@@ -375,4 +333,49 @@ h1{
   text-align: center;
   font-size: 14px;
   transition: all 0.5s ease;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+  "a b c"
+  "d e f"
+  "g h i";
+}
+
+.bla {
+  grid-area: a;
+  color: white;
+}
+
+.information {
+  grid-area: b;
+  color: white;
+}
+
+.telefon {
+  grid-area: e;
+  color: white;
+}
+
+.email {
+  grid-area: h;
+  color: white;
+}
+
+.adresse {
+  grid-area: k;
+  color: white;
+}
+
+footer {
+  font-family: "Playfair Display", serif;
+  background-color: #554640;
+  font-size:20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 200px;
 }
