@@ -346,31 +346,38 @@ h1{
 .bla {
   grid-area: a;
   color: white;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
 .information {
   grid-area: b;
   color: white;
+  margin-top: 10px;
 }
 
 .telefon {
   grid-area: e;
   color: white;
+  margin-top: 20px;
 }
 
 .email {
   grid-area: h;
   color: white;
+  margin-top: 10px;
 }
 
 .adresse {
   grid-area: h;
   color: white;
+  margin-top: 45px;
 }
 
 .follow {
   grid-area: c;
   color: white;
+  margin-top: 10px;
 }
 
 footer {
