@@ -122,6 +122,7 @@ justify-content: flex-end;
   cursor: pointer;
 }
 
+
 .dropbtn:hover, .dropbtn:focus {
   background-color: #444059;
 }
@@ -269,7 +270,7 @@ h1{
 
 }
 
-.validator{
+.wrapper{
   grid-area: b;
   top: 50%;
   left: 70%;
@@ -280,7 +281,7 @@ h1{
   border-radius: 7px;
 }
 
-.validator h2{
+.wrapper h2{
   text-align: center;
   margin-bottom: 20px;
   text-transform: uppercase;
@@ -288,23 +289,23 @@ h1{
   color: #332902;
 }
 
-.validator .input_field{
+.wrapper .input_field{
   margin-bottom: 10px;
 }
 
-.validator .input_field input[type="text"],
-.validator textarea{
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
   border: 1px solid #e0e0e0;
   width: 100%;
   padding: 10px;
 }
 
-.validator textarea{
+.wrapper textarea{
   resize: none;
   height: 80px;
 }
 
-.validator .btn input[type="submit"]{
+.wrapper .btn input[type="submit"]{
   border: 0px;
   margin-top: 15px;
   margin-left: 25%;
@@ -331,7 +332,7 @@ h1{
   transition: all 0.5s ease;
 }
 
-/*Gro footer*/
+//*Gro footer*//
 
 .footer {
   display: grid;
@@ -346,38 +347,31 @@ h1{
 .bla {
   grid-area: a;
   color: white;
-  margin-top: 10px;
-  margin-left: 10px;
 }
 
 .information {
   grid-area: b;
   color: white;
-  margin-top: 10px;
 }
 
 .telefon {
   grid-area: e;
   color: white;
-  margin-top: 20px;
 }
 
 .email {
   grid-area: h;
   color: white;
-  margin-top: 10px;
 }
 
 .adresse {
   grid-area: h;
   color: white;
-  margin-top: 45px;
 }
 
 .follow {
   grid-area: c;
   color: white;
-  margin-top: 10px;
 }
 
 footer {
