@@ -211,7 +211,7 @@ justify-content: flex-end;
 
 .show {display:block;}
 
-}
+
 
 @media (max-width: 800px) {
     .navbar {
