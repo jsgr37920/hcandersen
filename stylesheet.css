@@ -380,6 +380,7 @@ h1{
 .follow {
   grid-area: c;
   color: white;
+  margin-left: 500px;
 }
 
 footer {
