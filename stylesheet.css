@@ -60,8 +60,6 @@ justify-content: flex-end;
     text-decoration: none;
     color: #dcccbb;
     padding: 1rem;
-    font-family: abril-display, serif;
-    font-weight: bold;
     font-size: 20px;
 }
 
@@ -79,7 +77,6 @@ justify-content: flex-end;
     text-decoration: none;
     color: #eab464;
     padding: 1rem;
-    font-family: abril-display, serif;
 }
 
 .navbar-links li a:hover {
@@ -94,7 +91,6 @@ justify-content: flex-end;
     justify-content: space-between;
     font-size: 22px;
     color: #d6ac37;
-    font-family: abril-display, serif;
     font-weight: bold;
 }
 
@@ -150,7 +146,6 @@ justify-content: flex-end;
   text-align: center;
   text-decoration: none;
   display: block;
-  font-family: abril-display, serif;
 }
 
 .dropdown-content a:hover {
@@ -165,7 +160,6 @@ justify-content: flex-end;
   text-decoration: none;
   display: block;
   font-size: 10px;
-  font-family: abril-display, serif;
   font-weight: lighter;
 }
 
@@ -335,6 +329,7 @@ h1{
   transition: all 0.5s ease;
 }
 
+
 .footer {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -366,12 +361,17 @@ h1{
 }
 
 .adresse {
-  grid-area: k;
+  grid-area: h;
+  color: white;
+}
+
+.follow {
+  grid-area: c;
   color: white;
 }
 
 footer {
-  font-family: "Playfair Display", serif;
+  font-family: 'Playfair Display', serif;
   background-color: #554640;
   font-size:20px;
   position: fixed;
