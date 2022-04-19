@@ -294,3 +294,40 @@ footer {
   transform-origin: right;
 
 }
+
+.footer {
+  background-color: #554640;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  grid-template-areas: 
+  "a b c"
+  "d e f"
+  "g h i"
+  "j k l";
+}
+
+.bla {
+  grid-area: a;
+  color: white;
+}
+
+.kontakt {
+  grid-area: b;
+  color: white;
+}
+
+.telefon {
+  grid-area: e;
+  color: white;
+}
+
+.email {
+  grid-area: h;
+  color: white;
+}
+
+.adresse {
+  grid-area: k;
+  color: white;
+}
