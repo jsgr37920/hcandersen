@@ -163,6 +163,52 @@ justify-content: flex-end;
   font-weight: lighter;
 }
 
+.indhold {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+    "a b c"
+    "d e f"
+    "g h i"
+    "j k l";
+  }
+
+
+  .banner {
+    grid-area: b;
+    color: white;
+  }
+
+  .video {
+    grid-area: h;
+    color: white;
+  }
+
+  .knapper {
+    grid-area: e;
+    color: white;
+  }
+
+  .nyheder {
+    grid-area: k;
+    color: white;
+  }
+
+  .follow {
+        grid-area: i;
+        color: white;
+ }
+
+ .indhold {
+    background-color: grey;
+    font-size:20px;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+
+  }
+
 .show {display:block;}
 
 
