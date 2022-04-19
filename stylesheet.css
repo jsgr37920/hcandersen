@@ -65,10 +65,15 @@ justify-content: flex-end;
     font-size: 25px;
 }
 
-
 .navbar2 {
       margin-right: 50px;
 }
+
+.navbar2 li {
+      padding-left: 10px;
+}
+
+
 .navbar3 li a {
     display: block;
     text-decoration: none;
@@ -78,9 +83,8 @@ justify-content: flex-end;
 }
 
 .navbar-links li a:hover {
-    background-color: #ffff;
-    color: #757575;
-    border-radius: 20px;
+    color: #ffff;
+
 }
 
 .p-menu {
