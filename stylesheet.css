@@ -156,7 +156,6 @@ justify-content: flex-end;
 .dropdown-content a:hover {
   background-color: #ffff;
   color: #757575;
-
 }
 
 .dropdown-content p {
@@ -309,7 +308,7 @@ justify-content: flex-end;
 
 }
 
-.validator{
+.wrapper{
   grid-area: b;
   top: 50%;
   left: 70%;
@@ -320,7 +319,7 @@ justify-content: flex-end;
   border-radius: 7px;
 }
 
-.validator h2{
+.wrapper h2{
   text-align: center;
   margin-bottom: 20px;
   text-transform: uppercase;
@@ -328,23 +327,23 @@ justify-content: flex-end;
   color: #332902;
 }
 
-.validator .input_field{
+.wrapper .input_field{
   margin-bottom: 10px;
 }
 
-.validator .input_field input[type="text"],
-.validator textarea{
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
   border: 1px solid #e0e0e0;
   width: 100%;
   padding: 10px;
 }
 
-.validator textarea{
+.wrapper textarea{
   resize: none;
   height: 80px;
 }
 
-.validator .btn input[type="submit"]{
+.wrapper .btn input[type="submit"]{
   border: 0px;
   margin-top: 15px;
   margin-left: 25%;
