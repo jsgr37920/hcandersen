@@ -245,6 +245,10 @@ justify-content: flex-end;
   font-family: abril-display, serif;
 }
 
+.baggrund{
+  background-color: #DCCCBB;
+}
+
 h1{
   text-align: center;
   font-size: 50px;
