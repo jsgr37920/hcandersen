@@ -279,6 +279,7 @@ footer {
 }
 
 
+
 @media (max-width: 475px) {
 
 .icons {
@@ -297,14 +298,13 @@ footer {
 
 }
 
-
 .footer {
   background-color: #554640;
   height: 60%;
   display: grid;
   grid-template-columns: auto auto auto;
   grid-template-rows: auto auto auto auto;
-  grid-template-areas: 
+  grid-template-areas:
   "a b c"
   "d e f"
   "g h i"
