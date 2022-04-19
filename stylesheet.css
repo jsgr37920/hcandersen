@@ -268,6 +268,10 @@ footer {
 
 
 
+
+
+
+
 *{
   margin: 0;
   padding: 0;
@@ -283,7 +287,6 @@ body{
   grid-template-rows: auto;
   grid-template-areas: "a b";
   align-items: center;
-
 }
 
 .box{
