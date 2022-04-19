@@ -382,14 +382,21 @@ h1{
 .facebooktekst {
   grid-area: f;
   margin-top: 20px;
-  margin-left: 540px;
+  margin-left: 545px;
   color: white;
 }
 
 .instagram {
   grid-area: f;
-  margin-top: 10px;
+  margin-top: 15px;
   margin-left: 650px;
+}
+
+.instagramtekst {
+  grid-area: f;
+  margin-top: 20px;
+  margin-left: 690px;
+  color: white;
 }
 
 .snapchat {
@@ -398,10 +405,24 @@ h1{
   margin-left: 500px;
 }
 
+.snapchattekst {
+  grid-area: f;
+  margin-top: 65px;
+  margin-left: 545px;
+  color: white;
+}
+
 .tiktok {
   grid-area: f;
   margin-top: 60px;
-  margin-left: 560px;
+  margin-left: 650px;
+}
+
+.tiktoktekst {
+  grid-area: f;
+  margin-top: 60px;
+  margin-left: 690px;
+  color: white;
 }
 
 footer {
