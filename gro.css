@@ -1,8 +1,8 @@
-.footer {
+footer {
     background-color: #554640;
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-template-rows: auto;
+    grid-template-rows: 1fr, 1fr, 1fr, 1fr;
     grid-template-areas:
     "a b c"
     "d e f"
@@ -15,7 +15,7 @@
     color: white;
   }
   
-  .kontakt {
+  .information {
     grid-area: b;
     color: white;
   }
@@ -34,3 +34,7 @@
     grid-area: k;
     color: white;
   }
+    .follow {
+        grid-area: c;
+
+    }
