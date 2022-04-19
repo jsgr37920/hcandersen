@@ -1,8 +1,12 @@
-footer {
+.container {
     background-color: #554640;
+    font-size:20px;
     display: grid;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     grid-template-columns: auto auto auto;
-    grid-template-rows: 1fr, 1fr, 1fr, 1fr;
+    grid-template-rows: auto auto auto auto;
     grid-template-areas:
     "a b c"
     "d e f"
