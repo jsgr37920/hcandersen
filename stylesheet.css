@@ -283,7 +283,7 @@ justify-content: flex-end;
   font-family: abril-display, serif;
 }
 
-kontakt{
+.kontakt{
   background: #DCCCBB;
   display: grid;
   grid-template-columns: auto auto;
