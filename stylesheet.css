@@ -1,9 +1,5 @@
 @media (min-width: 800px)
 
-* {
-    box-sizing: border-box;
-
-}
 
 header nav .active-page {
     background-color:white;
