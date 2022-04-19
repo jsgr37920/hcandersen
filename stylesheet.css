@@ -367,12 +367,17 @@ h1{
 }
 
 .adresse {
-  grid-area: k;
+  grid-area: h;
+  color: white;
+}
+
+.follow {
+  grid-area: c;
   color: white;
 }
 
 footer {
-  font-family: "Playfair Display", serif;
+  font-family: 'Playfair Display', serif;
   background-color: #554640;
   font-size:20px;
   position: fixed;
