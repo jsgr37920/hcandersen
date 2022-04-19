@@ -74,7 +74,7 @@ justify-content: flex-end;
     text-decoration: none;
     color: #eab464;
     padding: 1rem;
-    font-family: abril display;
+    font-family: abril-display, serif;
 }
 
 .navbar-links li a:hover {
@@ -90,7 +90,7 @@ justify-content: flex-end;
     justify-content: space-between;
     font-size: 22px;
     color: #d6ac37;
-    font-family: Helvetica;
+    font-family: abril-display, serif;
     font-weight: bold;
 }
 
@@ -146,7 +146,7 @@ justify-content: flex-end;
   text-align: center;
   text-decoration: none;
   display: block;
-  font-family: Helvetica;
+  font-family: abril-display, serif;
 }
 
 .dropdown-content a:hover {
@@ -162,7 +162,7 @@ justify-content: flex-end;
   text-decoration: none;
   display: block;
   font-size: 10px;
-  font-family: Helvetica;
+  font-family: abril-display, serif;
   font-weight: lighter;
 }
 
