@@ -219,9 +219,8 @@ justify-content: flex-end;
 .icons {
   transform: scale(0.75);
   transform-origin: right;
-
 }
-
+}
 @media (max-width: 390px) {
 
 .icons {
@@ -232,7 +231,7 @@ justify-content: flex-end;
 
 }
 
-.footer {
+footer {
   background-color: #554640;
   height: 60%;
   display: grid;
