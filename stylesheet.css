@@ -233,6 +233,7 @@ justify-content: flex-end;
 }
 
 .container {
+  font-family: abril-display, serif;
   background-color: #554640;
   position: fixed;
   bottom: 0;
