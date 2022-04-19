@@ -372,6 +372,10 @@ h1{
   color: white;
 }
 
+.facebook {
+  grid-area: f;
+}
+
 footer {
   font-family: 'Playfair Display', serif;
   background-color: #554640;
