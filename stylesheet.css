@@ -160,54 +160,9 @@ justify-content: flex-end;
   text-decoration: none;
   display: block;
   font-size: 10px;
+  font-family: abril-display, serif;
   font-weight: lighter;
 }
-
-.indhold {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
-    grid-template-areas:
-    "a b c"
-    "d e f"
-    "g h i"
-    "j k l";
-  }
-
-
-  .banner {
-    grid-area: b;
-    color: white;
-  }
-
-  .video {
-    grid-area: h;
-    color: white;
-  }
-
-  .knapper {
-    grid-area: e;
-    color: white;
-  }
-
-  .nyheder {
-    grid-area: k;
-    color: white;
-  }
-
-  .follow {
-        grid-area: i;
-        color: white;
- }
-
- .indhold {
-    background-color: grey;
-    font-size:20px;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-
-  }
 
 .show {display:block;}
 
@@ -286,7 +241,8 @@ justify-content: flex-end;
   padding: 0;
   box-sizing: border-box;
   outline: none;
-  font-family: 
+  font-family: abril-display, serif;
+}
 
 h1{
   text-align: center;
@@ -312,7 +268,7 @@ h1{
 
 }
 
-.validator{
+.wrapper{
   grid-area: b;
   top: 50%;
   left: 70%;
@@ -323,7 +279,7 @@ h1{
   border-radius: 7px;
 }
 
-.validator h2{
+.wrapper h2{
   text-align: center;
   margin-bottom: 20px;
   text-transform: uppercase;
@@ -331,23 +287,23 @@ h1{
   color: #332902;
 }
 
-.validator .input_field{
+.wrapper .input_field{
   margin-bottom: 10px;
 }
 
-.validator .input_field input[type="text"],
-.validator textarea{
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
   border: 1px solid #e0e0e0;
   width: 100%;
   padding: 10px;
 }
 
-.validator textarea{
+.wrapper textarea{
   resize: none;
   height: 80px;
 }
 
-.validator .btn input[type="submit"]{
+.wrapper .btn input[type="submit"]{
   border: 0px;
   margin-top: 15px;
   margin-left: 25%;
