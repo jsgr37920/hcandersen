@@ -343,9 +343,6 @@ h1{
 
 /*Gro footer*/
 
-
-
-
 .footer {
   display: grid;
   grid-template-columns: auto auto auto;
