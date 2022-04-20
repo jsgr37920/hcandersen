@@ -356,26 +356,33 @@ h1{
 .bla {
   grid-area: a;
   color: white;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 .information {
   grid-area: b;
   color: white;
+  margin-top: 20px;
+  margin-left: 200px;
 }
 
 .telefon {
   grid-area: e;
   color: white;
+  margin-left: 200px;
 }
 
 .email {
   grid-area: h;
   color: white;
+  margin-left: 200px;
 }
 
 .adresse {
   grid-area: h;
   color: white;
+  margin-left: 200px;
 }
 
 .follow {
@@ -385,7 +392,7 @@ h1{
 }
 
 footer {
-  font-family: 'Playfair Display', serif;
+  /* font-family: 'Playfair Display', serif; */
   background-color: #554640;
   font-size:20px;
   position: fixed;
