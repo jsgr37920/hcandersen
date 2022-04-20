@@ -347,11 +347,12 @@ h1{
 .footer {
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-template-rows: auto auto auto;
+  grid-template-rows: auto auto auto auto;
   grid-template-areas:
   "a b c"
   "d e f"
-  "g h i";
+  "g h i"
+  "j k l";
 }
 
 .bla {
@@ -381,15 +382,43 @@ h1{
 }
 
 .adresse {
-  grid-area: h;
+  grid-area: k;
   color: white;
   margin-left: 200px;
+  margin-bottom: 40px;
 }
 
 .follow {
   grid-area: c;
   color: white;
+  margin-left: 350px;
+  margin-top: 20px;
+}
+
+.facebook {
+  grid-area: f;
+  margin-left: 350px;
+  margin-top: 10px;
+}
+
+.facebooktekst {
+  grid-area: f;
+  margin-left: 400px;
+  color: white;
+  margin-top: 10px;
+}
+
+.instagram {
+  grid-area: f;
   margin-left: 500px;
+  margin-top: 10px;
+}
+
+.instagramtekst {
+  grid-area: f;
+  margin-left: 540px;
+  color:white;
+  margin-top: 10px;
 }
 
 footer {
