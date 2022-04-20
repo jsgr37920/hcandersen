@@ -421,6 +421,15 @@ h1{
   margin-top: 10px;
 }
 
+.snapchat {
+  grid-area: f;
+}
+
+.snapchattekst {
+  grid-area: f;
+  color: white;
+}
+
 footer {
   /* font-family: 'Playfair Display', serif; */
   background-color: #554640;
