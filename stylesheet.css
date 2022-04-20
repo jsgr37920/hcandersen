@@ -6,6 +6,7 @@ header nav .active-page {
 }
 
 body {
+    background-image: url(billeder/papertexture2.jpg);
     margin: 0;
     padding: 0;
     background-color: white;
@@ -340,7 +341,10 @@ h1{
   transition: all 0.5s ease;
 }
 
-//*Gro footer*//
+/*Gro footer*/
+
+
+
 
 .footer {
   display: grid;
