@@ -357,14 +357,15 @@ h1{
 
 .bla {
   grid-area: a;
-  color: white;
+  color: #dcccbb;
   margin-top: 20px;
   margin-left: 20px;
 }
 
 .information {
   grid-area: b;
-  color: white;
+  font-weight: bold;
+  color: #dcccbb;
   margin-top: 20px;
   margin-left: 200px;
 }
@@ -373,24 +374,26 @@ h1{
   grid-area: e;
   color: white;
   margin-left: 200px;
+  margin-top: 20px;
 }
 
 .email {
   grid-area: h;
   color: white;
   margin-left: 200px;
+  margin-top: 20px;
 }
 
 .adresse {
   grid-area: k;
   color: white;
   margin-left: 200px;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 .follow {
   grid-area: c;
-  color: white;
+  color: #dcccbb;
   margin-left: 350px;
   margin-top: 20px;
 }
@@ -398,27 +401,27 @@ h1{
 .facebook {
   grid-area: f;
   margin-left: 350px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .facebooktekst {
   grid-area: f;
   margin-left: 400px;
   color: white;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .instagram {
   grid-area: f;
   margin-left: 500px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .instagramtekst {
   grid-area: f;
   margin-left: 540px;
   color:white;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .snapchat {
@@ -457,6 +460,7 @@ h1{
 
 footer {
   /* font-family: 'Playfair Display', serif; */
+  font-family: 'Times New Roman', Times, serif;
   background-color: #554640;
   font-size:20px;
   position: fixed;
