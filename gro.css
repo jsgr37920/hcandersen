@@ -1,3 +1,35 @@
+.nyhedsbrev {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  " a b c";
+}
+.storknap {
+  grid-area: b;
+  border-radius: 30px;
+  background-color: #A7754D;
+  width: 600px;
+  height: 60px;
+  text-align: justify;
+  color: white;
+  border: none;
+  box-shadow: 0 5px 5px rgb(0 0 0 / 0.2);
+}
+
+.lilleknap {
+  grid-area: b;
+  width: 350px;
+  height: 30px;
+  border-radius: 20px;
+  border:none;
+  background-color: white;
+  margin-top: 15px;
+  margin-left: 200px;
+  text-align: start;
+  box-shadow: 0 5px 5px rgb(0 0 0 / 0.2);
+}
+
 /* Slideshow container */
 .slideshow-container {
   display: grid;
