@@ -591,6 +591,73 @@ h1{
     background-color: #554640;
   }
 
+  /*Gro om os siden*/
+
+  .omos {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-areas: 
+    "a"
+    "b"
+    "c"
+    "d"
+    "e";
+  }
+  
+  .poverskrift {
+    grid-area: a;
+    margin-left: 20px;
+    color: #554640;
+    padding: 20px 20px 20px 20px;
+  }
+
+  .pet {
+    grid-area: a;
+    padding: 20px 20px 20px 20px;
+  }
+
+  .puoverskriftet {
+    grid-area: b;
+  }
+
+  .pto {
+    grid-area: b;
+    padding: 20px 20px 20px 20px;
+  }
+
+  .puoverskriftto {
+    grid-area: c;
+  }
+
+  .ptre {
+    grid-area: c;
+    padding: 20px 20px 20px 20px;
+  }
+
+  .puoverskrifttre {
+    grid-area: d;
+  }
+
+  .pfire {
+    grid-area: d;
+    padding: 20px 20px 20px 20px;
+  }
+
+  .puoverskriftfire {
+    grid-area: e;
+  }
+
+  .pfem {
+    grid-area: e;
+    margin-bottom: 200px;
+    padding: 20px 20px 20px 20px;
+  }
+
+  h2 {
+    color: #554640;
+  }
+
 /*Gro footer*/
 
 .footer {
