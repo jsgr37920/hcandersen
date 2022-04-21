@@ -1,3 +1,5 @@
+console.log ("Velkommen til console loggen")
+
 let slideIndex = 1;
 showSlides(slideIndex);
 

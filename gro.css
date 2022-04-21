@@ -1,7 +1,6 @@
 /* Slideshow container */
 .slideshow-container {
-    position: relative;
-    background: #f1f1f1f1;
+   
   }
   
   /* Slides */
@@ -10,7 +9,25 @@
     padding: 80px;
     text-align: center;
   }
+
+ .boks {
+   border-style: none;
+   box-shadow: 0 14px 28px #554640;
+   border-radius: 5%;
+   height: 350px;
+   width:250px;
+   background-color: #DCCCBB;
+ }
   
+ .audition {
+   height: 200px;
+   width: 175px;
+   opacity: 0.8;
+ }
+
+ .audition:hover {
+   opacity: 1;
+ }
   /* Next & previous buttons */
   .prev, .next {
     cursor: pointer;
@@ -19,7 +36,7 @@
     width: auto;
     margin-top: -30px;
     padding: 16px;
-    color: #888;
+    color: #554640;
     font-weight: bold;
     font-size: 20px;
     border-radius: 0 3px 3px 0;
@@ -35,7 +52,7 @@
   
   /* On hover, add a black background color with a little bit see-through */
   .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
+    background-color: #554640;
     color: white;
   }
   
@@ -43,7 +60,7 @@
   .dot-container {
     text-align: center;
     padding: 20px;
-    background: #ddd;
+    background: #DCCCBB;
   }
   
   /* The dots/bullets/indicators */
@@ -60,14 +77,9 @@
   
   /* Add a background color to the active dot/circle */
   .active, .dot:hover {
-    background-color: #717171;
+    background-color: #554640;
   }
   
-  /* Add an italic font style to all quotes */
-  q {font-style: italic;}
-  
-  /* Add a blue color to the author */
-  .author {color: cornflowerblue;}
     
 .footer {
     display: grid;
