@@ -494,20 +494,34 @@ h1{
   transition: all 0.5s ease;
 }
 
+/*Gros niks pille*/
 /* Slideshow container */
 .slideshow-container {
   display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  grid-template-areas: 
+  "a b c"
+  "d e f"
+  "g h i";
    
   }
   
   /* Slides */
   .mySlides {
-    display: none;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+    "a b c"
+    "d e f"
+    "g h i";
     padding: 80px;
     text-align: center;
   }
 
  .boks {
+   grid-area: b;
    border-style: none;
    box-shadow: 0 14px 28px #554640;
    border-radius: 5%;
@@ -527,8 +541,8 @@ h1{
  }
   /* Next & previous buttons */
   .prev, .next {
+    grid-area: a;
     cursor: pointer;
-    position: absolute;
     top: 50%;
     width: auto;
     margin-top: -30px;
@@ -542,7 +556,7 @@ h1{
   
   /* Position the "next button" to the right */
   .next {
-    position: absolute;
+    grid-area: c;
     right: 0;
     border-radius: 3px 0 0 3px;
   }
