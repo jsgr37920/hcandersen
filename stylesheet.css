@@ -603,55 +603,99 @@ h1{
     "c"
     "d"
     "e";
+    border-style: none;
+    box-shadow: 0 14px 28px #554640;
+    background-color: rgba(85, 70, 64, 0.7);
+    width: auto;
+    height: auto;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    border-radius: 10px;
   }
   
   .poverskrift {
     grid-area: a;
-    margin-left: 20px;
-    color: #554640;
-    padding: 20px 20px 20px 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+    color: #EAB464;
+    font-size: 40px;
+    
   }
 
   .pet {
     grid-area: a;
-    padding: 20px 20px 20px 20px;
+    padding: 40px 40px 40px 40px;
+    margin-top: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style:italic;
+    color: white;
   }
 
   .puoverskriftet {
     grid-area: b;
+    margin-left: 40px;
+    color: #EAB464;
+    font-size: 30px;
   }
 
   .pto {
     grid-area: b;
-    padding: 20px 20px 20px 20px;
+    padding: 40px 40px 40px 40px;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: white;
   }
 
   .puoverskriftto {
     grid-area: c;
+    margin-left: 40px;
+    color: #EAB464;
+    font-size: 30px;
   }
 
   .ptre {
     grid-area: c;
-    padding: 20px 20px 20px 20px;
+    padding: 40px 40px 40px 40px;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: white;
   }
 
   .puoverskrifttre {
     grid-area: d;
+    margin-left: 40px;
+    color: #EAB464;
+    font-size: 30px;
   }
 
   .pfire {
     grid-area: d;
-    padding: 20px 20px 20px 20px;
+    padding: 40px 40px 40px 40px;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: white;
   }
 
   .puoverskriftfire {
     grid-area: e;
+    margin-left: 40px;
+    color: #EAB464;
+    font-size: 30px;
   }
 
   .pfem {
     grid-area: e;
-    margin-bottom: 200px;
-    padding: 20px 20px 20px 20px;
+    margin-bottom: 120px;
+    padding: 40px 40px 40px 40px;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: white;
   }
 
   h2 {
