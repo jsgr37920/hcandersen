@@ -13,46 +13,48 @@ body {
 }
 
 .indhold {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto auto;
-    grid-template-areas:
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  grid-template-areas:
     "banner banner banner"
     "b b b"
     ". c ."
     ". d ."
-    ". e .";
-  }
+    "s s s"
+    "f f f"
+    ". g .";
+}
 
-  .banner {
-    grid-area: banner;
-    background-color: #554640;
-    background-image: url(billeder/banner.png);
-    background-position-y: 836px;
-    background-position-x: 225px;
-    padding-top: 241px;
-  }
+.banner {
+  grid-area: banner;
+  background-color: #554640;
+  background-image: url(billeder/banner.png);
+  background-position-y: 836px;
+  background-position-x: 225px;
+  padding-top: 241px;
+}
 
-  .Nyheder{
-    grid-area: e;
-    color: black;
+.Nyheder {
+  grid-area: s;
+  color: black;
+}
 
-  }
+.billedebanner {
+  height: 100%;
+  width: 100%%;
+  display: flex;
+}
 
-  .billedebanner {
-    height: 100%;
-    width: 100%%;
-    display: flex;
-  }
-
-  .video {
-    grid-area: d;
-    color: white;
-    text-align: -webkit-center;
-    position: relative;
-    padding-bottom: 56.25%; /* 16:9 */
-    height: 0;
-  }
+.video {
+  grid-area: d;
+  color: white;
+  text-align: -webkit-center;
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  height: 0;
+}
 
   .video iframe {
     position: absolute;
@@ -157,7 +159,7 @@ body {
  }
 
  .indhold {
-    font-size:25px;
+
 
     width: 100%;
     height: 100%;
@@ -316,6 +318,103 @@ justify-content: flex-end;
   font-size: 10px;
   font-family: abril-display, serif;
   font-weight: lighter;
+}
+
+/*Gros niks pille*/
+/* Slideshow container */
+.slideshow-container {
+  grid-area: f;
+      display: grid;
+      grid-template-columns: auto auto auto;
+      grid-template-rows: auto auto auto;
+      grid-template-areas:
+          "a b c"
+          "d e f"
+          "g h i";
+          justify-content: center;
+        align-items: center;
+}
+
+.mySlides {
+  justify-content: center;
+  align-items: center;
+}
+
+/* Slides */
+
+
+.boks {
+  grid-area: b;
+  border-style: none;
+  box-shadow: 0 14px 28px #554640;
+  border-radius: 5%;
+  height: 350px;
+  width: 250px;
+  background-color: #DCCCBB;
+}
+
+.audition {
+  height: 200px;
+  width: 175px;
+  opacity: 0.8;
+}
+
+.audition:hover {
+  opacity: 1;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  grid-area: a;
+  cursor: pointer;
+  top: 50%;
+  width: auto;
+  /* margin-top: -30px; */
+  padding: 16px;
+  color: #554640;
+  font-weight: bold;
+  font-size: 62px;
+  border-radius: 0 3px 3px 0;
+  /* user-select: none; */
+}
+
+/* Position the "next button" to the right */
+.next {
+  grid-area: c;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #554640;
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  grid-area: g;
+  text-align: center;
+  padding: 10px;
+  background: #DCCCBB;
+  border-radius: 20px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #554640;
 }
 
 .show {display:block;}
@@ -495,125 +594,13 @@ h1{
 }
 
 
-/*Gros niks pille*/
-
-/*Gros knap*/
-
-.nyhedsbrev {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto;
-  grid-template-areas: 
-  " a b c";
-}
-.storknap {
-  border-radius: 20px;
-  color: #A7754D;
-
-}
-/* Slideshow container */
-.slideshow-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto auto auto;
-  grid-template-areas: 
-  "a b c"
-  "d e f"
-  "g h i";
-   
-  }
-  
-  /* Slides */
-  .mySlides {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
-    grid-template-areas: 
-    "a b c"
-    "d e f"
-    "g h i";
-    padding: 80px;
-    text-align: center;
-  }
-
- .boks {
-   grid-area: b;
-   border-style: none;
-   box-shadow: 0 14px 28px #554640;
-   border-radius: 5%;
-   height: 350px;
-   width:250px;
-   background-color: #DCCCBB;
- }
-  
- .audition {
-   height: 200px;
-   width: 175px;
-   opacity: 0.8;
- }
-
- .audition:hover {
-   opacity: 1;
- }
-  /* Next & previous buttons */
-  .prev, .next {
-    grid-area: a;
-    cursor: pointer;
-    top: 50%;
-    width: auto;
-    margin-top: -30px;
-    padding: 16px;
-    color: #554640;
-    font-weight: bold;
-    font-size: 20px;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-  }
-  
-  /* Position the "next button" to the right */
-  .next {
-    grid-area: c;
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-  
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover, .next:hover {
-    background-color: #554640;
-    color: white;
-  }
-  
-  /* The dot/bullet/indicator container */
-  .dot-container {
-    text-align: center;
-    padding: 20px;
-    background: #DCCCBB;
-  }
-  
-  /* The dots/bullets/indicators */
-  .dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: white;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-  }
-  
-  /* Add a background color to the active dot/circle */
-  .active, .dot:hover {
-    background-color: #554640;
-  }
-
   /*Gro om os siden*/
 
   .omos {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto auto auto auto;
-    grid-template-areas: 
+    grid-template-areas:
     "a"
     "b"
     "c"
@@ -630,14 +617,14 @@ h1{
     margin-bottom: 100px;
     border-radius: 10px;
   }
-  
+
   .poverskrift {
     grid-area: a;
     margin-top: 20px;
     margin-left: 40px;
     color: #EAB464;
     font-size: 40px;
-    
+
   }
 
   .pet {
