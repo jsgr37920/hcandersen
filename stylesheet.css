@@ -1668,7 +1668,7 @@ height: 45px;
 
 /* Add an active class to the active dropdown button */
 .active {
-  background-color: green;
+  background-color: #554640;
   color: white;
 }
 
