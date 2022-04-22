@@ -870,12 +870,762 @@ footer {
   width: 100%;
 grid-area: g;
 }
+/* Forestillinger */
+
+
+button:hover{
+background: #A7754D;
+}
+
+.Forestillingersiden{
+
+display: grid;
+grid-template-columns: auto auto auto;
+grid-template-rows: auto auto auto;
+grid-template-areas:
+"a"
+"e "
+"i "
+"m "
+"q"
+"u"
+"aa "
+"ee "
+"ii ";
+padding-top:20px;
+}
+.nyheder-knap{
+margin-left:30px;
+grid-area: a;
+width:80px;
+height: 30px;
+border-radius:25px;
+}
+.stot-knap{
+margin-left:140px;
+grid-area: a;
+width:80px;
+height: 30px;
+border-radius:25px;
+}
+.sponsorer-knap{
+margin-left:250px;
+grid-area: a;
+width:80px;
+height: 30px;
+border-radius:25px;
+}
+#praktisk{
+display: grid;
+grid-area: e;
+
+}
+
+.praktisk-info
+{
+display: grid;
+grid-template-columns: auto auto auto;
+grid-template-rows: auto auto auto;
+grid-template-areas:
+"a b b d"
+"e f g h"
+"i j k l"
+"m n o p";
+font-size:10px;
+border:solid none;
+border-radius: 25px;
+padding:20px;
+background: #554640;
+color:white;
+width: 300px;
+height: 200px;
+margin-left:30px;
+
+}
+.penge {
+position: absolute;
+margin-left:58px;
+width:15px;
+margin-top:126px;
+
+}
+.tid {
+position: absolute;
+margin-left:58px;
+width:15px;
+margin-top:55px;
+}
+.lokation {
+position: absolute;
+margin-left:58px;
+width:15px;
+margin-top:90px;
+}
+.praktisk-info h1 {
+grid-area: a;
+
+}
+.praktisk-info p {
+grid-area: b;
+margin-top:20px;
+
+
+}
+
+.om-forestillingen p{
+font-size:10px;
+}
+
+.om-forestillingen
+{
+display: grid;
+grid-area: q;
+border:solid none;
+border-radius: 25px;
+padding:20px;
+background: #554640;
+color:white;
+margin-left:30px;
+width:300px;
+
+}
+.hyrdinden-banner {
+
+border:solid;
+grid-area: i;
+box-shadow: 10px 10px 10px 10px #554640;
+margin-left:25px;
+width:auto;
+margin-top:20px;
+
+}
+.koeb {
+border:solid;
+grid-area:m;
+border-radius: 25px;
+background: #EAB464;
+font-size:15px;
+font-weight: bold;
+width:200px;
+padding: 20px;
+margin-left:70px;
+margin-top:20px;
+margin-bottom: 20px;
+
+}
+
+
+
+.kommenede
+{
+margin-top:40px;
+margin-bottom:30px;
+
+grid-area: a;
+text-align: center;
+}
+
+
+.tidligere {
+margin-left:20px;
+width:340px;
+grid-area: u;
+font-size:16px;
+color:#554640;
+padding-top:20px;
+
+}
+.tidligere h1 {
+width:200px;
+}
+.timeline {
+margin-bottom: 50px;
+
+grid-area: aa;
+
+}
+#timeline a {
+
+text-decoration: none;
+-webkit-transition: 0.5s;
+-moz-transition: 0.5s;
+-o-transition: 0.5s;
+-ms-transition: 0.5s;
+transition: 0.5s;
+}
+
+#timeline a:hover{
+color: #ffcc00;
+}
+
+
+
+#dates {
+width:auto;
+height: 30px;
+overflow: hidden;
+padding-top:10px;
+
+
+
+}
+
+time  {
+
+list-style: none;
+float: left;
+width: 60px;
+height: 30px;
+font-size: 20px;
+text-align: center;
+margin-right:10px;
+
+}
+
+#dates a {
+color:white;
+padding:20px;
+
+
+}
+#dates >li:nth-child(odd){
+background-color:#554640;
+}
+#dates >li:nth-child(even){
+background-color:#A7754D;
+}
+#change {
+grid-area: ee;
+border:solid;
+background: #554640;
+border-radius: 25px;
+list-style-type: none;
+margin-top:-20px;
+margin-bottom:10px;
+margin-left:20px;
+width:300px;
+
+
+
+}
+#change h1{
+color:#A7754D;
+font-size:20px;
+padding:10px;
+}
+#change p {
+color:white;
+padding:10px;
+font-size: 15px;
+}
+.btn {
+font-size:17px;
+width:auto;
+min-width:80px;
+color:black;
+background:#EAB464;
+font-weight: bold;
+float: right;
+margin-bottom:10px;
+}
+.left-arrow {
+float:left;
+width:30px;
+}
+
+img.left-arrow:hover {
+width:31px;
+}
+img.right-arrow:hover {
+width:31px;
+}
+.right-arrow {
+float:right;
+margin-right:51px;
+width:30px;
+}
+
+
+@media (min-width: 500px) {
+.Forestillingersiden{
+display: grid;
+
+grid-template-columns: auto auto auto;
+grid-template-rows: auto auto auto;
+grid-template-areas:
+"k b"
+"a c "
+"i i "
+"m m "
+"q q "
+"u u "
+"aa aa "
+"ee ee "
+"ii ii ";
+margin-left:60px;
+}
+.nyheder-knap{
+grid-area: k;
+}
+.stot-knap{
+grid-area: k;
+margin-left: 195px;
+}
+.sponsorer-knap{
+grid-area: k;
+margin-left:350px;
+}
+#praktisk {
+grid-area: a;
+
+}
+
+.praktisk-info{
+width:400px;
+height: 280px;
+display: grid;
+
+grid-template-columns: auto auto auto;
+grid-template-rows: auto auto auto;
+grid-template-areas:
+"x a"
+"c b"
+"c b"
+"c b"
+}
+.praktisk-info p{
+font-size:15px;
+grid-area: b;
+margin-left:40px;
+}
+.praktisk-info img {
+width:25px;
+grid-area: c;
+
+
+}
+.praktisk-info h2 {
+font-size:23px;
+margin-left:40px;
+grid-area: a;
+}
+.lokation{
+margin-left: 10px;
+margin-top:95px;
+}
+.tid{
+margin-left: 10px;
+margin-top:160px;
+}
+.penge{
+margin-left: 10px;
+margin-top:205px;
+}
+.hyrdinden-banner{
+width:400px;
+grid-area:i;
+
+
+}
+.penge {
+margin-top:140px;
+}
+.lokation{
+margin-top:55px;
+}
+.tid{
+margin-top:100px;;
+}
+
+.koeb {
+grid-area: m;
+margin-left:120px;
+}
+.om-forestillingen {
+grid-area: q;
+margin-left: 60px;
+width:300px;
+height: 320px;
+
+}
+.om-forestillingen p {
+font-size: 15px;
+}
+.om-forestillingen h2{
+font-size:23px;
+}
+
+.kommenede {
+grid-area: k;
+}
+}
+#change {
+grid-area: ee;
+}
+@media (min-width: 800px) {
+.Forestillingersiden{
+display: grid;
+grid-template-columns: auto auto auto;
+grid-template-rows: auto auto auto;
+grid-template-areas:
+"a a"
+"om b"
+"i k "
+"g e "
+"f l "
+"time time "
+"ee m ";
+}
+.nyheder-knap{
+grid-area: a;
+margin-left:100px;
+margin-bottom: 50px;
+width: 100px;
+height: 50px;
+font-size:17px;
+}
+.stot-knap{
+grid-area: a;
+margin-left: 400px;
+width: 100px;
+height: 50px;
+font-size:17px;
+}
+.sponsorer-knap{
+width: 100px;
+height: 50px;
+font-size:17px;
+grid-area: a;
+margin-left:650px;
+}
+.praktisk-info p{
+
+font-size:10px;
+}
+.kommenede{
+grid-area: b;
+margin-top:-40px;
+}
+.om-forestillingen {
+grid-area: om;
+width: 20rem;
+height: 13rem;
+margin-left: -50px
+
+}
+.om-forestillingen p {
+font-size: 10px;
+}
+.hyrdinden-banner{
+grid-area:om;
+width: 15rem;
+height: 5rem;
+margin-left: 300px;
+
+
+}
+
+.kommenede {
+grid-area: om;
+margin-left:20rem;
+}
+.praktisk-info img{
+width:15px;
+}
+#praktisk {
+grid-area:b;
+width:20rem;
+height: 13rem;
+margin-left:-9rem;
+
+
+}
+.koeb {
+grid-area:i;
+margin-top:-60px;
+margin-left:20rem;
+}
+.tidligere
+{
+grid-area: g;
+margin-left:20rem;
+}
+.timeline {
+grid-area: time;
+margin-right:10rem;
+}
+#dates {
+height: 40px;
+}
+#dates a {
+margin-left:-15px;
+font-size:25px;
+
+}
+.left-arrow, .right-arrow {
+margin-top:10px;
+}
+.right-arrow {
+margin-left:-10px;
+}
+}
+#change {
+grid-area:ee;
+}
+@media (min-width: 1200px) {
+.Forestillingersiden{
+display: grid;
+grid-template-columns: auto auto auto;
+grid-template-rows: auto auto auto;
+grid-template-areas:
+"news stot sponsorer "
+"om banner info"
+"i k k "
+"g e o "
+"f l h "
+"time time time"
+"ee m n";
+padding-top:20px;
+
+
+}
+.nyheder-knap{
+grid-area: news;
+}
+.stot-knap{
+grid-area: stot;
+margin-left:150px;
+
+}
+.sponsorer-knap{
+margin-left:150px;
+grid-area: sponsorer;
+
+}
+.kommenede{
+grid-area: banner;
+margin-top:-40px;
+margin-left:-9rem;
+}
+.om-forestillingen {
+grid-area: om;
+width: 20rem;
+height: 20rem;
+
+
+
+}
+.om-forestillingen h2 {
+font-size: 30px;
+padding-bottom:10px;
+}
+.om-forestillingen p {
+font-size: 15px;
+}
+.hyrdinden-banner{
+grid-area:banner;
+width: 30rem;
+height: auto;
+margin-left:-5rem;
+
+
+}
+.praktisk-info h2 {
+font-size: 30px;
+}
+.praktisk-info p{
+font-size: 15px;
+}
+.praktisk-info img{
+width:30px;
+margin-left:0rem;
+}
+.lokation{
+margin-top:99px;
+}
+.tid{
+margin-top:170px;
+}
+.penge{
+margin-top:220px;
+}
+#praktisk {
+height: 20rem;
+grid-area:info;
+width:350px;
+margin-left:-1rem;
+}
+.koeb {
+grid-area:k;
+margin-top:-0px;
+margin-left:4rem;
+}
+.tidligere
+{
+grid-area: e;
+margin-left:0rem;
+
+}
+.timeline {
+grid-area: time;
+
+}
+}
+#dates {
+height: 40px;
+}
+#dates a {
+margin-left:-15px;
+font-size:25px;
+
+}
+.left-arrow, .right-arrow {
+margin-top:10px;
+}
+.right-arrow {
+margin-left:-10px;
+}
+
+#change {
+grid-area:ee;
+}
+
+/* TIMELINE
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.timeline {
+white-space: nowrap;
+overflow-x: hidden;
+width:auto;
+}
+
+.timeline ol {
+
+
+font-size: 0;
+width: 100px;
+padding: 250px 0;
+transition: all 1s;
+}
+
+.timeline ol li {
+position: relative;
+display: inline-block;
+list-style-type: none;
+width: 160px;
+height: 3px;
+background: black;
+}
+
+.timeline ol li:last-child {
+width: 280px;
+}
+
+.timeline ol li:not(:first-child) {
+margin-left: 14px;
+}
+
+.timeline ol li:not(:last-child)::after {
+content: '';
+position: absolute;
+top: 50%;
+left: calc(100% + 1px);
+bottom: 0;
+width: 12px;
+height: 12px;
+transform: translateY(-50%);
+border-radius: 50%;
+background: black;
+}
+
+.timeline ol li div {
+position: absolute;
+left: calc(100% + 7px);
+width: 220px;
+max-height: 200px;
+padding: 15px;
+font-size: 12px;
+white-space: normal;
+color: white;
+background: white;
+
+}
+
+.timeline ol li div::before {
+content: '';
+position: absolute;
+top: 100%;
+left: 0;
+width: 0;
+height: 0;
+border-style: solid;
+}
+
+.timeline ol li:nth-child(odd) div {
+top: -16px;
+transform: translateY(-100%);
+background: #A7754D;
+}
+
+.timeline ol li:nth-child(odd) div::before {
+top: 100%;
+border-width: 8px 8px 0 0;
+border-color: white transparent transparent transparent;
+}
+
+.timeline ol li:nth-child(even) div {
+top: calc(100% + 16px);
+background: #554640;
+}
+
+.timeline ol li:nth-child(even) div::before {
+top: -8px;
+border-width: 8px 0 0 8px;
+border-color: transparent transparent transparent white;
+}
+
+.timeline time {
+color:black;
+display: block;
+font-size: 20px;
+font-weight: bold;
+margin-bottom: 8px;
+}
+.timeline p {
+overflow:hidden;
+}
+
+/* TIMELINE ARROWS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.timeline .arrows {
+display: flex;
+justify-content: center;
+margin-bottom: 20px;
+}
+
+.timeline .arrows .arrow__prev {
+margin-right: 20px;
+}
+
+.timeline .disabled {
+opacity: .5;
+}
+
+.timeline .arrows img {
+width: 45px;
+height: 45px;
+}
 
 
 
 
-/* styleguide
 
+
+
+
+
+/*Styleguide
 /* Fixed sidenav, full height */
 .sidenav {
   height: 100%;
