@@ -23,7 +23,8 @@ body {
     ". d ."
     "s s s"
     "f f f"
-    ". g .";
+    "h h h"
+    "g g g";
 }
 
 .banner {
@@ -159,8 +160,6 @@ body {
  }
 
  .indhold {
-
-
     width: 100%;
     height: 100%;
     grid-row-gap: 65px;
@@ -593,14 +592,12 @@ h1{
   transition: all 0.5s ease;
 }
 
-/*Gros nyhedsbrev*/
-
 .nyhedsbrev {
   display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto;
-  grid-template-areas: 
-  " a b c";
+  /* grid-template-columns: auto auto auto; */
+  /* grid-template-rows: auto; */
+  /* grid-template-areas: " a b c"; */
+  grid-area: h;
 }
 .storknap {
   grid-area: b;
@@ -636,7 +633,6 @@ h1{
   text-align: start;
   box-shadow: 0 5px 5px rgb(0 0 0 / 0.2);
 }
-
 
   /*Gro om os siden*/
 
@@ -872,6 +868,5 @@ footer {
   font-size:20px;
   bottom: 0;
   width: 100%;
-  height: 250px;
-  position: fixed;
+grid-area: g;
 }
