@@ -488,7 +488,7 @@ justify-content: flex-end;
 
 
 
-
+/* Kontakt siden jooo!!*/
 *{
   margin: 0;
   padding: 0;
@@ -565,7 +565,7 @@ h1{
   height: 80px;
 }
 
-.validator .btn input[type="submit"]{
+.validator .btn2 input[type="submit"]{
   border: 0px;
   margin-top: 15px;
   margin-left: 25%;
