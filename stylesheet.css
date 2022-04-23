@@ -1687,6 +1687,7 @@ height: 45px;
 
 .center {
 margin: 25%;
+margin-top: 5%;
 width: 70%;
 border: 5px solid #FFFF00;
 padding: 10px;
@@ -1731,4 +1732,50 @@ padding: 10px;
   padding: 50px;
   margin: 20px;
   background: #DCCCBB;
+}
+
+.typebox1{
+
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+
+.typebox12{
+  width: 300px;
+  border: 15px solid green;
+  margin: 20px;
+}
+
+
+.typebox2{
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+
+
+
+
+.typebox3{
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+
+.typebox4{
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+
+.typebox5{
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
 }
