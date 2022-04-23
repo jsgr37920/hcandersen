@@ -1697,6 +1697,7 @@ padding: 10px;
   border: 15px solid green;
   padding: 50px;
   margin: 20px;
+  background: #6295D9;
 
 }
 
@@ -1705,6 +1706,7 @@ padding: 10px;
   border: 15px solid green;
   padding: 50px;
   margin: 20px;
+  background: #554640;
 }
 
 .box3 {
@@ -1712,6 +1714,7 @@ padding: 10px;
   border: 15px solid green;
   padding: 50px;
   margin: 20px;
+  background: #A7754D;
 }
 
 .box4 {
@@ -1719,6 +1722,7 @@ padding: 10px;
   border: 15px solid green;
   padding: 50px;
   margin: 20px;
+  background: #EAB464;
 }
 
 .box5 {
@@ -1726,4 +1730,5 @@ padding: 10px;
   border: 15px solid green;
   padding: 50px;
   margin: 20px;
+  background: #DCCCBB;
 }
