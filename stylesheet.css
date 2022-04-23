@@ -1684,3 +1684,46 @@ height: 45px;
   float: right;
   padding-right: 8px;
 }
+
+.center {
+margin: 25%;
+width: 70%;
+border: 5px solid #FFFF00;
+padding: 10px;
+}
+
+.box1 {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+
+}
+
+.box2 {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+
+.box3 {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+
+.box4 {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+
+.box5 {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
