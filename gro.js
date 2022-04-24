@@ -1,4 +1,5 @@
 console.log ("Velkommen til console loggen")
+console.log ("Et array kunne se sådan her ud, const farver = [red, blue, green] men fordi jeg ikke har brug for det i mit javascript har jeg lavet det her")
 
 let slideIndex = 1;
 showSlides(slideIndex);
