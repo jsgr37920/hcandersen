@@ -1,7 +1,6 @@
 function validate(){
   let name = document.getElementById("name").value;
   let name2 = document.getElementById("name2").value;
-  let subject = document.getElementById("name2").value;
   let phone = document.getElementById("phone").value;
   let email = document.getElementById("email").value;
   let email2 = document.getElementById("email2").value;
