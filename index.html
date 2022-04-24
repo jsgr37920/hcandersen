@@ -9,13 +9,14 @@
    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
 <script src="p5.js" defer></script>
 <script src="gro.js" defer></script>
+<script src="citat.js" defer></script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
   <body>
         <nav class="navbar">
           <div class="logo">
-  <img src="billeder/logo2.png" alt="Italian Trulli" style="height:70px;">
+  <img id="hat" src="billeder/logo2.png" alt="Italian Trulli" style="height:70px;">
           </div>
           <a href="#" class="toggle-button">
             <span class="bar"></span>
@@ -46,6 +47,7 @@
 
    <div class="indhold">
    <div class="banner">
+       <h5 id="citat"></h>
    </div>
    <div class="knapper">
 <button class="knap1">Nyheder</button>
@@ -75,14 +77,14 @@
 </div>
 
 <div class="mySlides">
-   <img src="billeder/andreas.png" alt="billedeafandreasodbjerg">
+   <img src="billeder/andreasen.png" alt="billedeafandreasodbjerg">
  <p>Uventet besøg</p>
  <p>Til audition fik vi besøg af kunsteren Andreas Odbjer</p>
 </div>
 
 <div class="mySlides">
    <div class="boks">
-   <img class="audition"src="billeder/audition.png" alt="billedeafaudition">
+   <img class="audition"src="billeder/danse.png" alt="billedeafaudition">
  <p>Sommerens hold er sat</p>
  <p> Vi afholdte i januar audition til sommerens forestillinger</p>
    </div>
@@ -104,7 +106,7 @@
   <button class="storknap">
     <p class="tilmeld">Tilmeld dig nyhedsbrevet</p></button>
   <button class="lilleknap">
-    <p class="besked">Skriv din mail her</p>
+    <p id="mail" class="besked">Skriv din mail her</p>
   </button>
 </div>
 

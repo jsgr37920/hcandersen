@@ -1,5 +1,10 @@
 
-console.log ("javascript running");
+console.log ("Film H.C.Andersen har inspireret.");
+
+const stories = ["Den lille havfrue", "Frozen", "Den grimme ælling", "Fantasia 2000"];
+for(storie of stories) {
+  console.log(storie);
+}
 
  let toggleButton = document.getElementsByClassName('toggle-button')[0]
  let navbarLinks = document.getElementsByClassName('navbar-links')[0]
@@ -8,27 +13,10 @@ console.log ("javascript running");
    navbarLinks.classList.toggle('active')
  });
 
- Guides.onclick = function() {
-     alert('Måske gå over til Feedback?');
+ mail.onclick = function() {
+     alert('så er du tilmeldt vores nyhedsfeed');
    };
 
-   // få knappen, og når brugeren klikker på den så fremfører den "myFunction"
-   document.getElementById("myBtn").onclick = function() {myFunction()};
-
- // "myFunction" aktiveres mellem at tilføje og fjerner "show class", hvilket er med for at skjule og vise "dropdown" indholdet
-
-   function myFunction() {
-     document.getElementById("myDropdown").classList.toggle("show");
-   }
-
-
-   const time = new Date().getHours();
- let greeting;
- if (time < 10) {
-   greeting = "Godmorgen";
- } else if (time < 20) {
-   greeting = "Tid til frokost!";
- } else {
-   greeting = "Godaften";
- }
- document.getElementById("Morgenmessage").innerHTML = greeting;
+   hat.onclick = function() {
+       alert(greeting);
+     };

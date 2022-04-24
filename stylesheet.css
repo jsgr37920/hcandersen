@@ -20,7 +20,7 @@ body {
     "banner banner banner"
     "b b b"
     ". c ."
-    ". d ."
+    "d d d"
     "s s s"
     "f f f"
     "h h h"
@@ -33,7 +33,17 @@ body {
   background-image: url(billeder/banner.png);
   background-position-y: 836px;
   background-position-x: 225px;
-  padding-top: 241px;
+  padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.banner h5 {
+  display: flex;
+    justify-content: center;
+    font-size: 27px;
+    color: #ffff;
+    text-shadow: 2px 2px 4px #000000;
+
 }
 
 .Nyheder {
@@ -342,26 +352,6 @@ justify-content: flex-end;
 /* Slides */
 
 
-.boks {
-  grid-area: b;
-  border-style: none;
-  box-shadow: 0 14px 28px #554640;
-  border-radius: 5%;
-  height: 350px;
-  width: 250px;
-  background-color: #DCCCBB;
-}
-
-.audition {
-  height: 200px;
-  width: 175px;
-  opacity: 0.8;
-}
-
-.audition:hover {
-  opacity: 1;
-}
-
 /* Next & previous buttons */
 .prev, .next {
   grid-area: a;
@@ -426,6 +416,13 @@ justify-content: flex-end;
         align-items: flex-start;
     }
 
+    .indhold {
+       width: 100%;
+       height: 100%;
+       grid-row-gap: 115px;
+       display: flow-root;
+     }
+
     .p-menu {
           position: absolute;
           margin-left: 110px;
@@ -461,7 +458,36 @@ justify-content: flex-end;
 
     .navbar-links.active {
         display: flex;
+        flex-direction: column-reverse;
     }
+
+    .video {
+      grid-area: d;
+      color: white;
+      text-align: -webkit-center;
+      position: relative;
+      padding-bottom: 56.25%;
+      /* 16:9 */
+      height: 0;
+    }
+
+      .video iframe {
+        position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          border-radius: 20px;
+      }
+
+      .knapper {
+        grid-area: b;
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+
+      }
 }
 
 
