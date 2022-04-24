@@ -1776,13 +1776,83 @@ padding: 10px;
 
 
 .typebox2{
-  width: 300px;
+  width: 600px;
   border: 15px solid green;
   padding: 50px;
   margin: 20px;
 }
 
 
+}
+.typebox2 p{
+font-size: 62px;
+padding-bottom: 5px;
+}
+
+.type62 {
+  font-size: 62px;
+  padding-bottom: 5px;
+}
+
+.type50 {
+  font-size: 50px;
+  padding-bottom: 5px;
+}
+
+.type30 {
+  font-size: 30px;
+  padding-bottom: 5px;
+}
+
+.type25 {
+  font-size: 25px;
+  padding-bottom: 5px;
+}
+
+.type23 {
+  font-size: 23px;
+  padding-bottom: 5px;
+}
+
+.type22 {
+  font-size: 22px;
+  padding-bottom: 5px;
+}
+
+.type20 {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.type17 {
+  font-size: 17px;
+  padding-bottom: 5px;
+}
+
+.type16 {
+  font-size: 16px;
+  padding-bottom: 5px;
+}
+
+.type15 {
+  font-size: 15px;
+  padding-bottom: 5px;
+}
+
+.type14 {
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+
+.type13 {
+  font-size: 13px;
+  padding-bottom: 5px;
+}
+
+.type10{
+  font-size: 10px;
+  padding-bottom: 5px;
+}
 
 
 .typebox3{
