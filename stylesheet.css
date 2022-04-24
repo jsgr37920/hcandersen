@@ -1714,14 +1714,15 @@ height: 45px;
 .center {
 margin: 25%;
 margin-top: 5%;
-width: 70%;
-border: 5px solid #FFFF00;
+width: 40%;
+border: 5px solid #554640;
 padding: 10px;
+background: #fff;
 }
 
 .box1 {
   width: 300px;
-  border: 15px solid green;
+  border: 15px;
   padding: 50px;
   margin: 20px;
   background: #6295D9;
@@ -1730,7 +1731,7 @@ padding: 10px;
 
 .box2 {
   width: 300px;
-  border: 15px solid green;
+  border: 15px;
   padding: 50px;
   margin: 20px;
   background: #554640;
@@ -1738,7 +1739,7 @@ padding: 10px;
 
 .box3 {
   width: 300px;
-  border: 15px solid green;
+  border: 15px;
   padding: 50px;
   margin: 20px;
   background: #A7754D;
@@ -1746,7 +1747,7 @@ padding: 10px;
 
 .box4 {
   width: 300px;
-  border: 15px solid green;
+  border: 15px;
   padding: 50px;
   margin: 20px;
   background: #EAB464;
@@ -1754,7 +1755,7 @@ padding: 10px;
 
 .box5 {
   width: 300px;
-  border: 15px solid green;
+  border: 15px;
   padding: 50px;
   margin: 20px;
   background: #DCCCBB;
@@ -1763,28 +1764,28 @@ padding: 10px;
 .typebox1{
 
   width: 300px;
-  border: 15px solid green;
+  border: 15px;
   padding: 50px;
   margin: 20px;
 }
 
 .typebox12{
   width: 300px;
-  border: 15px solid green;
+  border: 15px;
   margin: 20px;
 }
 
 
 .typebox2{
   width: 600px;
-  border: 15px solid green;
+  border: 15px;
   padding: 50px;
   margin: 20px;
 }
 
 .typebox3{
   width: 300px;
-  border: 15px solid green;
+  border: 15px;
   padding: 50px;
   margin: 20px;
 }
