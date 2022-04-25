@@ -6,7 +6,6 @@ header nav .active-page {
 }
 
 body {
-    background-image: url(billeder/papertexture4.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: 100%;
@@ -30,7 +29,6 @@ body {
 .banner {
   grid-area: banner;
   background-color: #554640;
-  background-image: url(billeder/banner.png);
   background-position-y: 836px;
   background-position-x: 225px;
   padding-top: 5%;
